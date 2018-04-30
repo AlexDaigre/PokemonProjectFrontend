@@ -26,3 +26,55 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.pokemonList {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 290 !important;
+}
+
+.pokemonCardDiv {
+  padding: 50px;
+  text-align: center;
+}
+
+.navbar{
+  background-color: lightgrey !important;
+  text-align: center !important;
+  height: 62px !important;
+  display: flex !important;
+}
+
+.pokemonTitle {
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.searchFields {
+  display: flex;
+}
+
+.searchElemet {
+  display: flex;
+  padding: 20px;
+}
+
+.pokemonCardPropertyList {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemonCardPropertyElement {
+  padding: 10px;
+  text-align: center;
+}
+
+.pokemonName {
+  font-size: 26px;
+}
+
+.pokemonType {
+  font-size: 20px;
+}
