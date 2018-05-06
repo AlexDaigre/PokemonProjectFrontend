@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Image, Accordion, Header } from 'semantic-ui-react';
+import { Card, Image, Accordion } from 'semantic-ui-react';
 
 const PokemonCard = (props) => {
   const movePanel = [{
@@ -15,7 +15,7 @@ const PokemonCard = (props) => {
   return(
     <div className = "pokemonCardDiv">
       <Card>
-        <Image src="http://via.placeholder.com/350x300" />
+        <Image src={props.pokemon.image} />
         <Card.Content>
           <Card.Header className="pokemonName">
             {props.pokemon.name}

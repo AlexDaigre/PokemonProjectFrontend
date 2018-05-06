@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Icon, Sticky, Button, Input } from 'semantic-ui-react';
+import { Sticky, Button, Input } from 'semantic-ui-react';
 import axios from 'axios';
 
 class Header extends Component {
